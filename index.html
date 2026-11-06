@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>香港 2026.11.21–22｜相机·徕卡·手表比价 + 徒步购物动线</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; background:#f4f2ed; color:#22252a; line-height:1.65; font-size:15px; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 14px 48px; }
+  header { background:linear-gradient(135deg,#14161c 0%,#232733 60%,#3a2b20 100%); color:#f5efe4; padding:34px 14px 26px; margin:0 -14px 18px; }
+  header .inner { max-width:880px; margin:0 auto; }
+  header h1 { font-size:24px; line-height:1.35; font-weight:800; }
+  header h1 .accent { color:#e8b34b; }
+  header .sub { margin-top:8px; font-size:13.5px; color:#cfc8ba; }
+  header .meta { margin-top:14px; display:flex; flex-wrap:wrap; gap:8px; }
+  header .meta span { background:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.16); border-radius:999px; padding:3px 11px; font-size:12.5px; }
+  h2 { font-size:19px; margin:30px 0 6px; padding-left:10px; border-left:4px solid #c8912a; }
+  h2 .en { color:#9a8f7a; font-size:12px; font-weight:500; margin-left:6px; letter-spacing:.06em; }
+  h3 { font-size:16px; margin:18px 0 4px; }
+  p { margin:6px 0; }
+  .small { font-size:12.5px; color:#6d6a61; }
+  .card { background:#fff; border:1px solid #e4dfd3; border-radius:12px; padding:14px 16px; margin:12px 0; }
+  .warn { background:#fdf3e3; border:1px solid #ecd3a0; border-radius:12px; padding:12px 16px; margin:12px 0; }
+  .danger { background:#fbeeee; border:1px solid #efc4c4; border-radius:12px; padding:12px 16px; margin:12px 0; }
+  .ok { background:#eef6ee; border:1px solid #bfdcc0; border-radius:12px; padding:12px 16px; margin:12px 0; }
+  .tblwrap { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:10px 0; border:1px solid #e4dfd3; border-radius:10px; background:#fff; }
+  table { border-collapse:collapse; width:100%; min-width:640px; font-size:13px; }
+  th { background:#2a2e39; color:#f0e9da; text-align:left; padding:8px 10px; font-weight:600; white-space:nowrap; }
+  td { padding:8px 10px; border-top:1px solid #eee9dc; vertical-align:top; }
+  tr td:first-child { font-weight:600; white-space:nowrap; }
+  .num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .good { color:#1d7a35; font-weight:700; }
+  .bad { color:#b03030; font-weight:700; }
+  .mid { color:#a86e12; font-weight:700; }
+  .badge { display:inline-block; border-radius:6px; padding:1px 8px; font-size:12px; font-weight:700; white-space:nowrap; }
+  .b5 { background:#1d7a35; color:#fff; }
+  .b4 { background:#4c9a52; color:#fff; }
+  .b3 { background:#c8912a; color:#fff; }
+  .b2 { background:#d8d2c2; color:#5c564a; }
+  .b1 { background:#e8e2d4; color:#8a8474; }
+  ul { margin:6px 0 6px 20px; }
+  li { margin:4px 0; }
+  .rank { display:flex; gap:10px; padding:9px 0; border-bottom:1px dashed #e0dacb; }
+  .rank:last-child { border-bottom:none; }
+  .rank .no { flex:0 0 26px; height:26px; border-radius:50%; background:#2a2e39; color:#e8b34b; text-align:center; line-height:26px; font-weight:800; font-size:13px; }
+  .timeline { position:relative; margin:8px 0 0 6px; padding-left:22px; border-left:2px solid #ddd5c2; }
+  .tl-item { position:relative; padding:7px 0 7px 4px; }
+  .tl-item::before { content:""; position:absolute; left:-28px; top:14px; width:10px; height:10px; border-radius:50%; background:#c8912a; border:2px solid #fff; box-shadow:0 0 0 1px #d8cfb6; }
+  .tl-item .t { font-weight:800; color:#8a5f10; font-variant-numeric:tabular-nums; }
+  .tl-item .place { font-weight:700; }
+  .check li { list-style:none; margin:7px 0; }
+  .check { margin-left:2px; }
+  .due { background:#b03030; color:#fff; border-radius:5px; padding:0 7px; font-size:12px; font-weight:700; margin-right:6px; white-space:nowrap; }
+  .due2 { background:#c8912a; color:#fff; border-radius:5px; padding:0 7px; font-size:12px; font-weight:700; margin-right:6px; white-space:nowrap; }
+  a { color:#8a5f10; }
+  .src { font-size:12.5px; color:#6d6a61; }
+  .src li { margin:3px 0; }
+  footer { margin-top:34px; padding-top:14px; border-top:1px solid #ddd5c2; font-size:12.5px; color:#8a8474; }
+  .kpi { display:flex; flex-wrap:wrap; gap:10px; margin:12px 0; }
+  .kpi .box { flex:1 1 150px; background:#fff; border:1px solid #e4dfd3; border-radius:12px; padding:10px 12px; }
+  .kpi .box .v { font-size:19px; font-weight:800; color:#8a5f10; }
+  .kpi .box .k { font-size:12.5px; color:#6d6a61; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="inner">
+    <h1>香港 11月21–22日<br><span class="accent">相机 · 徕卡 · 手表比价</span> + 徒步购物动线</h1>
+    <p class="sub">Sony A7M5 / A7R6 / 100-400 两代 · Leica Q 与 M · 手表评估 · 美妆 · 药妆 · 奢侈品包包 · 户外装备 · 两天动线与出发前清单</p>
+    <div class="meta">
+      <span>📅 2026-11-21（六）– 11-22（日）</span>
+      <span>💱 1 HKD ≈ ¥0.851（11-06 中间价）</span>
+      <span>🔍 全部价格核验于 2026-11-06</span>
+      <span>⚫ 黑五正日是 11-27，你这两天是黑五周 + 崇光感谢祭收官</span>
+    </div>
+  </div>
+</header>
+
+<h2>先看结论 <span class="en">VERDICT</span></h2>
+<div class="card">
+  <div class="rank"><div class="no">1</div><div><b>Leica Q3（旺角/专营店街价 HK$43,800）</b> — 全场价差最干净：¥37,274，比内地定价 ¥50,800 省 <span class="good">26.6%</span>；就算入境如实申报（相机 13%）后 ¥42,120，仍比内地经销商价 ¥48,260 便宜 ¥6,140。前提是接受街店的保修条款（见徕卡部分）。</div></div>
+  <div class="rank"><div class="no">2</div><div><b>Sony A7R6（天祥街价 HK$28,590）</b> — ¥24,330，比国行定价 ¥31,799 省 <span class="good">¥7,469（-23.5%）</span>；申报后 ¥27,493 仍省 ¥4,306。是 Sony 三件里唯一“闭眼成立”的。</div></div>
+  <div class="rank"><div class="no">3</div><div><b>Leica M11-P / M11（专营店街价与二手）</b> — M11-P 银色街价 HK$63,800 = ¥54,294，比内地定价 ¥71,800 省 24%；行货（天祥 ¥66,293）则没有优势，M 的香港价值在街价 + 二手深度，不在行货。</div></div>
+  <div class="rank"><div class="no">4</div><div><b>Sony 100-400 F4.5 GM（新款 SEL100400MC）</b> — 和 A7R6 在 Sony HK 同购有加购价 HK$28,590；单买 My Sony 价 ¥24,670 比国行定价省 ¥5,329，但镜头入境税率 20%，申报后只剩 ¥395 优势——<b>和机身打包买、别单独为它跑</b>。</div></div>
+  <div class="rank"><div class="no">5</div><div><b>手表：这趟不建议当目标</b> — 公价名义差最大也只有劳力士的 14%，而计税价 ≥¥10,000 的高档手表入境综合税率是 <b>50%、单件全额计税</b>。如实申报后所有贵价表全面贵过内地专柜。香港买表的真实价值只剩二手/灰市深度与个别街店让利（GS 雪花、帝舵二手），遇到才买，不专程。</div></div>
+  <div class="rank"><div class="no">6</div><div><b>美妆：买渠道，不买专柜</b> — 专柜价和内地大促价没得打；莎莎/龙丰的折扣渠道价才有意义：La Mer 面霜 60ml 龙丰 HK$1,480（¥1,259），低于中免日上活动价 ¥1,639；SK-II 神仙水莎莎 HK$888（¥756）只赢内地专柜价（¥1,540），和内地大促机制价基本打平。SOGO 感谢祭的品牌套装（5–6 折）是专柜渠道里唯一值得看的。</div></div>
+  <div class="rank"><div class="no">7</div><div><b>包包：价差被全球调价吃掉大半</b> — Chanel CF 名义省 14.2%、Dior Book Tote 省 14.9%，但单只包超 ¥12,000 免税额、申报按 20% 全额计税后全部归零甚至倒挂；LV Neverfull MM 折人民币后只比内地便宜 3.6%。香港买包的真实理由只剩：热门款现货、限定配色、二手市场深度（Brand Off 等）。</div></div>
+  <div class="rank"><div class="no">8</div><div><b>户外：始祖鸟有真价差，鞋服看折扣店</b> — Beta AR 香港街价 HK$5,680（¥4,834）比内地官方 ¥6,400 省 24.5%；Beta Jacket 街价 ¥3,047 只比内地大促价略低。GO WILD（至 11-30 低至 4 折 + 件数叠折）和 Protrek 会员冬促（会员 75 折）覆盖你们的旅行日期，旺角就是户外用品的密度中心。</div></div>
+  <div class="rank"><div class="no">9</div><div><b>药妆：买的是确定性，不是价差</b> — 黄道益、双飞人这类港产经典内地没有正规零售渠道，万宁/屈臣氏明码标价（黄道益 50ml 两家同价 HK$79.90）就是防假货的成本；单价低、总量小，免税额内随便带，不用算税。</div></div>
+</div>
+
+<div class="kpi">
+  <div class="box"><div class="v">¥12,000</div><div class="k">自港澳入境免税额 / 人（海关总署 2024 年第 176 号公告，另加口岸免税店 ¥3,000）</div></div>
+  <div class="box"><div class="v">13% / 20% / 50%</div><div class="k">入境综合税率：数码相机机身 13% · 单买镜头 20% · 高档手表 50%（单件不可分割物品超额按全额计税）</div></div>
+  <div class="box"><div class="v">11-12 23:59</div><div class="k">丰泽荃湾开仓抽签登记截止——这两天所有准备里唯一过时不候的</div></div>
+</div>
+
+<div class="warn"><b>比价口径（先说清，免得被单一数字误导）：</b>每个产品分四层比——① 内地官方定价 ② 内地电商/门店实际成交 ③ 香港官方渠道价 ④ 香港街店/二手价。很多“香港便宜 X 万”的说法是拿香港街价比内地定价，本文每行都标明层级；“申报后”一列是按海关规则如实申报的合规到手价，买不买、报不报是你的决定，但账要先算清。</div>
+
+<h2>一、Sony 机身与 100-400 <span class="en">A7M5 · A7R6 · 100-400 ×2</span></h2>
+<p class="small">背景：你现有 A7CR，这两台看的是升级/双机位。注意 A7R6 已换用新电池 NP-SA100（国行单买 ¥780），A7M5 仍是 NP-FZ100——R6 的配件成本要另算一笔。Sony 港行保修只保港澳。</p>
+<div class="tblwrap"><table>
+<tr><th>产品</th><th>香港价（渠道）</th><th>折 ¥</th><th>内地价</th><th>申报后到手</th><th>判断</th></tr>
+<tr>
+  <td>α7 V（A7M5）<br>ILCE-7M5 净机身</td>
+  <td class="num">定价 HK$20,490<br>丰泽/百老汇/My Sony <b>HK$17,190</b><br>天祥 <b>HK$16,990</b> · 万成 HK$17,490</td>
+  <td class="num">¥14,629<br>¥14,458</td>
+  <td class="num">定价 ¥17,999<br>京东 11-01 促销 ¥16,688<br>官方双11活动 ¥15,499<br>天猫叠国补约 ¥14,499 起（限地区/88VIP）<br>线下门店报道约 ¥13,500</td>
+  <td class="num">天祥价 ×1.13<br>= ¥16,338</td>
+  <td><span class="badge b2">条件值得</span><br>只赢内地<b>官方渠道</b>（省 ¥2,000–3,400）；内地国补/门店价已把差距吃光。不是专程买的理由，现场有现货、价 ≤HK$16,990 可顺手。</td>
+</tr>
+<tr>
+  <td>α7R VI（A7R6）<br>ILCE-7RM6 净机身</td>
+  <td class="num">定价 HK$35,990<br>My Sony <b>HK$31,050</b>（至 12-01，库存低）<br>丰泽 HK$32,350<br>天祥 <b>HK$28,590</b></td>
+  <td class="num">¥26,424<br>¥27,530<br><b>¥24,330</b></td>
+  <td class="num">定价 ¥31,799（京东同价）<br>经销商 ¥31,476–31,679<br>商家行情报道约 ¥25,700 起（单一商家，待核）</td>
+  <td class="num">天祥价 ×1.13<br>= ¥27,493</td>
+  <td><span class="badge b5">最值得</span><br>天祥价比国行定价省 <span class="good">¥7,469</span>，申报后仍省 ¥4,306，且 11 月内 Sony HK 买 R6 送两张 HK$400 配件券。注意天祥是接单订货制，必须提前问现货（见清单）。丰泽/My Sony 价只省 4–5 千，优势明显变薄。</td>
+</tr>
+<tr>
+  <td>FE 100-400mm F4.5 GM<br>SEL100400MC（新款）<br><span class="small">2026-05 与 R6 同发，恒定 F4.5，约 1,840g</span></td>
+  <td class="num">定价 HK$33,990<br>My Sony <b>HK$28,990</b><br>买 R6 加购价 HK$28,590<br>街店行货挂价 HK$28,578 / 水货 HK$27,548</td>
+  <td class="num">¥24,670<br>¥24,332<br>¥24,320</td>
+  <td class="num">定价 ¥29,999</td>
+  <td class="num">My Sony 价 ×1.20（镜头）<br>= ¥29,604</td>
+  <td><span class="badge b3">打包买</span><br>未申报省 ¥5,329 很香；申报后只剩 ¥395。<b>最优解是和 R6 一起在 Sony HK 下单吃加购价</b>，或天祥一起谈打包价。</td>
+</tr>
+<tr>
+  <td>FE 100-400mm F4.5-5.6 GM<br>SEL100400GM（旧款）<br><span class="small">约 1,395g，对焦慢于新款约 3 倍（官方口径）</span></td>
+  <td class="num">定价 HK$21,490<br>丰泽 <b>HK$14,290</b> · My Sony HK$14,590<br>格价网街价 HK$12,980<br>二手 HK$9,800–11,280</td>
+  <td class="num">¥12,161<br>¥11,046<br>¥8,340 起</td>
+  <td class="num">内地自营现价<span class="bad">未核到</span>（京东页面未给到手价，出发前再核）</td>
+  <td class="num">街价 ×1.20<br>= ¥13,255</td>
+  <td><span class="badge b3">看预算</span><br>新款的半价买到九成焦段覆盖，二手 ¥8,340 起是全场最便宜的长焦入场券；但你徒步多，重量只比新款轻 445g，并不轻便。</td>
+</tr>
+</table></div>
+<div class="ok"><b>徒步党的第三个选项：</b>FE 100-400mm F5.6-8 OSS（SEL100400）只有 <b>654g</b>，香港定价 HK$6,290、国行 ¥5,499——价差不值得专程买，但如果这趟的长焦是为山上打鸟/拍日出，它比两支 GM 都更适合背上山。GM 两支的香港优势属于“在家门口的工作镜头”逻辑，和徒步是两笔账。</div>
+<p class="small">已结束、别指望：Sony HK 的 A7V/A7R6 trade-in 活动是 10 月 1–31 日，你们到店时已过期；11 月感谢祭本身覆盖 11 月 2–30 日，机身镜头价有效。</p>
+
+<h2>二、徕卡 Q 与 M <span class="en">LEICA Q3 FAMILY · M11 FAMILY</span></h2>
+<p>徕卡不参加黑五打折，香港的价值从来不在“活动”，在<b>渠道价 + 二手深度 + 现货</b>。下面这张表把行货和街价分开列——Q 和 M 的结论都建立在同一句话上：<b>买行货（天祥/官方店）≈ 内地价，没有专程来的意义；价差全在专营街店和二手市场，代价是保修主体从徕卡官方变成店保/有限保，买前必须逐项问清。</b></p>
+<h3>Q 系列</h3>
+<div class="tblwrap"><table>
+<tr><th>产品</th><th>香港价（渠道）</th><th>折 ¥</th><th>内地价</th><th>申报后（13%）</th><th>判断</th></tr>
+<tr>
+  <td>Q3（28mm）</td>
+  <td class="num">天祥（行货）HK$59,900<br>Rangefinder <b>HK$43,800</b>（原标 48,000）<br>M&amp;K 金属灰全新 HK$44,310</td>
+  <td class="num">¥50,975<br><b>¥37,274</b><br>¥37,708</td>
+  <td class="num">定价 ¥50,800<br>京东 ¥53,360 · 天猫 ¥55,900<br>经销商 ¥48,260</td>
+  <td class="num">¥42,120</td>
+  <td><span class="badge b5">最值得</span><br>街价比内地定价省 <span class="good">¥13,526（-26.6%）</span>，申报后仍比内地经销商价便宜 ¥6,140。全场第一。</td>
+</tr>
+<tr>
+  <td>Q3 43（43mm F2 APO）</td>
+  <td class="num">Rangefinder <b>HK$48,200–48,800</b><br>二手 HK$41,200–41,500</td>
+  <td class="num">¥41,018 起<br>¥35,061 起</td>
+  <td class="num">定价 ¥56,300<br>京东标价 ¥59,600，好价情报曾报 ¥51,640（2026-09）</td>
+  <td class="num">¥46,350</td>
+  <td><span class="badge b5">最值得</span><br>新机街价省约 ¥15,000；二手 ¥35,061 起，比内地新机便宜两万。和你的街拍练习方向（28mm 已有 A7CR 体系）比，43mm 是更互补的那支“固定镜头”。</td>
+</tr>
+<tr>
+  <td>Q3 Monochrom</td>
+  <td class="num">天祥 HK$58,000<br>Rangefinder <b>HK$49,800</b></td>
+  <td class="num">¥49,358<br><b>¥42,380</b></td>
+  <td class="num">京东区间约 ¥56,600–59,600</td>
+  <td class="num">¥47,889</td>
+  <td><span class="badge b4">值得</span><br>街价省约 ¥14,000+。黑白机是纯喜好品，香港现货比内地好找。</td>
+</tr>
+</table></div>
+<h3>M 系列（仅机身，M 口镜头另算）</h3>
+<div class="tblwrap"><table>
+<tr><th>产品</th><th>香港价（渠道）</th><th>折 ¥</th><th>内地价</th><th>申报后（13%）</th><th>判断</th></tr>
+<tr>
+  <td>M11</td>
+  <td class="num">天祥（行货）HK$75,300<br>Rangefinder 黑漆版 <b>HK$64,800</b><br>开盒品 HK$59,000</td>
+  <td class="num">¥64,080<br><b>¥55,145</b><br>¥50,209</td>
+  <td class="num">定价 ¥69,300（另一报价站 ¥68,000）</td>
+  <td class="num">¥62,314</td>
+  <td><span class="badge b4">值得</span><br>街价省 ¥14,155（-20%），申报后仍省约 ¥7,000。</td>
+</tr>
+<tr>
+  <td>M11-P</td>
+  <td class="num">天祥（行货）HK$77,900–79,600<br>Rangefinder 银色 <b>HK$63,800</b><br>M&amp;K 二手 HK$55,800–56,800</td>
+  <td class="num">¥66,293<br><b>¥54,294</b><br>¥47,486 起</td>
+  <td class="num">定价 ¥71,800</td>
+  <td class="num">¥61,352</td>
+  <td><span class="badge b4">值得</span><br>街价省 <span class="good">¥17,506（-24%）</span>，申报后仍省 ¥10,448；二手 ¥47,486 起是内地买不到的档位。反面教材是行货：天祥价申报后 ¥74,911，反而贵过内地定价。</td>
+</tr>
+<tr>
+  <td>M11 Monochrom</td>
+  <td class="num">天祥 HK$80,200<br>Rangefinder <b>HK$68,800</b> · 开盒 HK$66,000</td>
+  <td class="num">¥68,250<br><b>¥58,549</b></td>
+  <td class="num">定价 ¥71,000</td>
+  <td class="num">¥66,160</td>
+  <td><span class="badge b4">值得</span><br>街价省 ¥12,451，申报后仍省约 ¥4,800。</td>
+</tr>
+<tr>
+  <td>M11-P 金属灰（限定配色）</td>
+  <td class="num">香港建议零售 HK$82,000（2026-05-28 发售）<br>Rangefinder <b>HK$66,000</b> · M&amp;K 全新 HK$66,250</td>
+  <td class="num"><b>¥56,166</b></td>
+  <td class="num">内地同配色定价未单独核到</td>
+  <td class="num">¥63,468</td>
+  <td><span class="badge b3">看现货</span><br>限定色街价比官方零售低 19.5%，这种货拼的是遇到，不是比价。</td>
+</tr>
+</table></div>
+<div class="card"><b>徕卡验机/问价清单（到店照着问）：</b>
+<ul>
+<li>行货还是平行？保修主体是谁、几年、内地徕卡能不能受理？——这一条决定上面哪一行价格对你成立</li>
+<li>Q3：查快门数、机身/镜头有无撞击痕、保卡日期与机身编号是否一致</li>
+<li>M 二手：感光元件有无坏点/腐蚀（M9 世代通病，新机型看划痕即可）、黄斑对焦是否准、快门帘幕状态、是否全套（盒/卡/发票）</li>
+<li>Rangefinder（宏觀）中环店、M&amp;K 旺角星际城市 3 楼 339 号（周日 12:00 开门）是两家可实地验机的专营店；天祥在尖沙咀 iSQUARE 508，一次把 Q/M/Sony 街价问齐</li>
+</ul></div>
+
+<h2>三、手表评估 <span class="en">WATCHES — 值不值得在香港买</span></h2>
+<p><b>评估结论先行：作为“专程购买目标”，不成立；作为“现场遇到好价的顺手品”，只成立两种情况。</b>原因不是香港不便宜——香港公价普遍比内地低 6–16%（免税市场）——而是回程这一关：自港澳入境免税额 ¥12,000/人，而计税价 ≥¥10,000 的表归类“高档手表”，综合税率 <b>50%</b>，单只表属不可分割物品、超额按<b>全额</b>计税。也就是说，一只 ¥54,379 的欧米茄，合规申报要再交 ¥27,190，到手 ¥81,568——比内地专柜 ¥64,700 还贵 26%。价差（最高 16%）在这个税档面前没有任何意义。</p>
+<div class="tblwrap"><table>
+<tr><th>表款</th><th>香港公价 → 折 ¥</th><th>内地公价/实际</th><th>名义差</th><th>如实申报后</th><th>评估</th></tr>
+<tr>
+  <td>劳力士 潜航者日历<br>126610LN（黑水鬼）</td>
+  <td class="num">HK$91,700 → ¥78,037</td>
+  <td class="num">公价 ¥91,200<br>内地灰市全新全套报道约 ¥98,000–112,000</td>
+  <td class="num good">-¥13,163（-14.4%）</td>
+  <td class="num bad">¥117,056</td>
+  <td><span class="badge b1">只登记</span><br>公价差是真的，但两地专柜热门钢款都无现货、靠配额排队——买不到的价格等于不存在。两天行程只能在海港城东方表行登记意向，别预设能提货。</td>
+</tr>
+<tr>
+  <td>欧米茄 超霸月球表<br>310.30.42.50.01.002（蓝宝石）</td>
+  <td class="num">HK$63,900 → ¥54,379<br><span class="small">海马 300 米胶带款 HK$44,100 → ¥37,529</span></td>
+  <td class="num">公价 ¥64,700（玻璃底 .001 为 ¥56,500）<br>内地门店常见 9–9.5 折，约 ¥58,000</td>
+  <td class="num good">-¥10,321（-16%）</td>
+  <td class="num bad">¥81,568</td>
+  <td><span class="badge b2">内地谈折更稳</span><br>名义省 1 万是全场表款里最大的，但内地专柜折扣 + 国行联保把它追回大半；香港灰市老款经销商价 HK$50,509（¥42,983）只适合明确接受平行渠道的人。</td>
+</tr>
+<tr>
+  <td>帝舵 碧湾 58<br>M79030N 钢带</td>
+  <td class="num">周大福 HK$37,900–38,800 → ¥33,019</td>
+  <td class="num">公价 ¥35,200<br>京东蓝盘实际售价 ¥27,900</td>
+  <td class="num mid">-¥2,181（对定价）<br><span class="bad">贵过京东 ¥5,119</span></td>
+  <td class="num bad">¥49,528</td>
+  <td><span class="badge b2">新表不必</span><br>新表香港毫无优势；真正的价值在二手：Chrono24 香港全套 HK$23,888 起（¥20,329），比内地二手 ¥24,300+ 低一截，尖沙咀/中环表行可现场验。</td>
+</tr>
+<tr>
+  <td>Grand Seiko 雪花<br>SBGA211（Spring Drive）</td>
+  <td class="num">官方 HK$49,800 → ¥42,380<br>街店全新现金价 <b>HK$43,800 → ¥37,274</b></td>
+  <td class="num">公价 ¥48,800</td>
+  <td class="num good">街价 -¥11,526（-23.6%）</td>
+  <td class="num bad">¥55,911（按街价）</td>
+  <td><span class="badge b3">唯一例外候选</span><br>全场手表里名义价差最实的一只：GS 定价体系 + 港店肯让利。如果这趟真要买一只表且接受平行/街店渠道，就是它；Chrono24 香港全套约 HK$39,262（¥33,412）更低，但多为二手/平行，验货要求更高。</td>
+</tr>
+</table></div>
+<div class="danger"><b>不申报这条路，我不给你算“省钱账”：</b>海关对超额未申报有明确罚则，法院公布案例里有人带两只表 + 一枚戒指（约 ¥12 万）走无申报通道，被认定走私、物品没收。两天行程、一只表，赌注和收益完全不对等。表款部分所有“申报后”数字就是按规则算的合规成本，看完再决定买不买。</div>
+<div class="card"><b>那香港买表还剩什么价值？</b>
+<ul>
+<li><b>二手/灰市深度</b>：中环—尖沙咀是亚洲密度最高的现货市场，冷门款、停产款、限定色当场能摸到实物，这是内地线上比不了的</li>
+<li><b>免税额内的小表</b>：¥12,000 以内的入门款/石英款/给妻子的表，香港价差即所得，没有税档问题</li>
+<li><b>奥莱淘货</b>：东涌东荟城有百年灵奥莱店，折扣款式随机，适合返程前顺路翻一翻，不预设型号</li>
+<li><b>试戴与登记</b>：劳力士/PP 这类配额款，这趟的正确动作是试戴定型号 + 留联系方式，不是提货</li>
+</ul></div>
+
+<h2>四、美妆 <span class="en">BEAUTY — 专柜看套装，单品看折扣渠道</span></h2>
+<p>美妆在香港的价格是<b>三层</b>：专柜（连卡佛/SOGO/品牌店）≈ 内地专柜价打个汇率折；莎莎、龙丰、卓悦这类折扣连锁卖平行进口，常态比专柜低 20–45%；再往下是内地电商大促的机制价，这两年已经把很多单品的地板价打到和香港折扣渠道同档。所以结论很具体：<b>单品去折扣渠道比三家，专柜只看感谢祭套装，要囤的量先想想内地大促能不能买到。</b></p>
+<div class="tblwrap"><table>
+<tr><th>产品</th><th>香港价（渠道）</th><th>折 ¥</th><th>内地价</th><th>判断</th></tr>
+<tr>
+  <td>SK-II 神仙水 230ml</td>
+  <td class="num">专柜 HK$1,700<br>莎莎 <b>HK$888</b> · 龙丰 HK$890<br>格价网 HK$1,105</td>
+  <td class="num">¥1,447<br><b>¥756</b><br>¥940</td>
+  <td class="num">专柜/官网 ¥1,540–1,690<br>天猫官旗 ¥1,450<br>京东大促机制价：到手量折算约 ¥635–1,100（活动口径）</td>
+  <td><span class="badge b3">看需求</span><br>莎莎价比内地专柜省 <span class="good">51%</span>，听着夸张，但内地大促价已经追到同一区间。<b>自用囤货没必要在香港背</b>；送人、要日本版、或正好缺货时，莎莎/龙丰是可靠补给点。</td>
+</tr>
+<tr>
+  <td>La Mer 精华面霜 60ml</td>
+  <td class="num">专柜 HK$3,085<br>龙丰 <b>HK$1,480</b> · 友和 HK$1,620<br>Zalora HK$1,928</td>
+  <td class="num">¥2,625<br><b>¥1,259</b><br>¥1,379</td>
+  <td class="num">天猫活动标价 ¥3,395 起（赠品另算）<br>京东行情约 ¥2,299<br>中免日上周年庆活动 ¥1,639（包邮包税）</td>
+  <td><span class="badge b4">值得</span><br>龙丰价 ¥1,259 是美妆里最实的价差之一，连中免活动价都低 ¥380。前提同徕卡街价：龙丰是平行进口渠道，认这个渠道再买；介意批次/版本就退回中免。</td>
+</tr>
+<tr>
+  <td>SOGO 感谢祭品牌套装<br><span class="small">以 SK-II 为例</span></td>
+  <td class="num">神仙水+活肤精华组合 <b>HK$3,400</b>（标价 HK$6,165，约 5.5 折）<br>焕颜双精华套装 HK$4,940（标价 HK$8,988）</td>
+  <td class="num">¥2,893</td>
+  <td class="num">内地专柜套装基本按正价 + 赠品逻辑</td>
+  <td><span class="badge b4">值得</span><br>这是专柜渠道在香港唯一的结构性优势：感谢祭套装是真打折不是送小样。你们 11-21/22 正好赶上收官两天，Day 1 铜锣湾场顺手看。</td>
+</tr>
+<tr>
+  <td>渠道价差速查<br><span class="small">兰蔻小黑瓶 50ml 等，比价站汇总口径</span></td>
+  <td class="num">小黑瓶：专柜约 HK$1,100，莎莎 HK$750–850<br>小棕瓶 50ml：专柜约 HK$1,050，莎莎 HK$700–800<br>Jo Malone 100ml：专柜约 HK$1,200，莎莎 HK$900–1,000</td>
+  <td class="num">小黑瓶莎莎价<br>¥638–723</td>
+  <td class="num">同品类内地专柜价普遍高 20–30%</td>
+  <td><span class="badge b3">现场比</span><br>这类数字各店各日浮动大，只给一个用法：<b>专柜价先除以 0.7 再决定要不要去莎莎比</b>——莎莎/卓悦同款常态就是专柜价的 7–8 折。</td>
+</tr>
+</table></div>
+<div class="warn"><b>美妆的税只有一个要点：</b>化妆品按计税单价分档——≥¥10/毫升（克）算“高档化妆品”走 50% 档，低于走 20% 档（海关 2025 年解读口径）。神仙水莎莎价折算 ¥3.3/ml 是普通档；La Mer 龙丰价折算约 ¥21/g 是高档档。但只要<b>全部行李总值控制在 ¥12,000 免税额内，一分钱税都没有</b>——美妆单价低，正常买两三瓶根本碰不到线，别为这个焦虑，超额囤货才需要算。</div>
+
+<h2>五、药妆 <span class="en">DRUGSTORE — 港产经典买行货连锁</span></h2>
+<p>药妆和美妆逻辑相反：黄道益、双飞人、保心安这些港产/港版经典，<b>内地根本没有正规零售渠道</b>，只有代购和跨境电商，水分和真假都不可控。所以香港药房之旅买的不是便宜，是“原产地行货 + 连锁明码标价”。万宁、屈臣氏全港几百家店，徒步和逛街路上随处可补，不用专程排进行程。</p>
+<div class="tblwrap"><table>
+<tr><th>产品</th><th>香港价</th><th>折 ¥</th><th>内地参照</th><th>备注</th></tr>
+<tr>
+  <td>黄道益活络油 50ml</td>
+  <td class="num">万宁 HK$79.90 · 屈臣氏 HK$79.90（两家同价）<br>街坊药房常见 HK$60–80</td>
+  <td class="num">¥68</td>
+  <td class="num">无正规零售；代购普遍 ¥70+</td>
+  <td>徒步两天正好用得上，Day 1 买了当晚就能擦。连锁买贵几块，买的是真货确定性。</td>
+</tr>
+<tr>
+  <td>法国双飞人药水</td>
+  <td class="num">连锁约 HK$65（45ml）<br>街坊药房 HK$50–62（50ml 口径不一）</td>
+  <td class="num">¥55 起</td>
+  <td class="num">无正规零售；跨境电商版本混杂</td>
+  <td>规格各店不一（45/50/80ml 都有），比价认准毫升数。</td>
+</tr>
+<tr>
+  <td>虎标颈肩舒 50g / 万金油 19.4g</td>
+  <td class="num">屈臣氏 HK$39.90 / HK$32.00</td>
+  <td class="num">¥34 / ¥27</td>
+  <td class="num">内地有售国产版，港版配方口碑不同</td>
+  <td>颈肩舒是徒步后放松的对口产品，小件随便带。</td>
+</tr>
+<tr>
+  <td>安耐晒金瓶 60ml</td>
+  <td class="num">屈臣氏会员价曾见 HK$168<br>万宁 90ml 装 HK$298</td>
+  <td class="num">¥143</td>
+  <td class="num">京东安热沙 60ml ¥119–249（活动浮动大）</td>
+  <td><span class="badge b2">平价</span> 没有稳定价差，香港买的是日本版现货；龙脊无遮阴，缺防晒 Day 1 先买为敬。</td>
+</tr>
+<tr>
+  <td>同类经典（认名字即可）</td>
+  <td class="num">无比滴、龙角散、娥罗纳英软膏、撒隆巴斯贴布、喇叭牌正露丸、五蜈蚣止咳丸</td>
+  <td class="num">—</td>
+  <td class="num">多为代购渠道</td>
+  <td>都是万宁/屈臣氏常备款，单价几十港币，看到就拿，不值得做攻略。</td>
+</tr>
+</table></div>
+<p class="small">渠道提醒：尖沙咀游客区的“药房”和连锁药妆店不是一回事——认万宁（Mannings）、屈臣氏（Watsons）、莎莎、龙丰的招牌买，价格牌明码标价；街坊老药房可以更便宜 10–20%，但要自己核对规格与有效期。招行银联 11 月在万宁有满额返现档（满 ¥500 返 ¥50，报名制），结账前先在掌上生活确认。</p>
+
+<h2>六、奢侈品包包 <span class="en">LUXURY BAGS — 价差收窄后，买现货与二手</span></h2>
+<p>先把预期校准：这几年大牌持续做全球价格协调，香港和内地的名义价差已经从早年的 25–30% 收窄到 <b>0–15%</b>；而且包和手表同理——单只包计税价超过 ¥12,000 免税额就是不可分割单件，如实申报按综合税率（包袋归入 20% 档）<b>全额计税</b>，名义价差基本被吃光。下面三只都是这么算的：</p>
+<div class="tblwrap"><table>
+<tr><th>包款</th><th>香港公价 → 折 ¥</th><th>内地公价</th><th>名义差</th><th>申报后（20%）</th><th>评估</th></tr>
+<tr>
+  <td>Chanel Classic Flap<br>经典 11.12（中号）</td>
+  <td class="num">HK$90,400 → ¥76,930</td>
+  <td class="num">¥89,700</td>
+  <td class="num good">-¥12,770（-14.2%）</td>
+  <td class="num bad">¥92,316</td>
+  <td><span class="badge b2">看现货</span><br>三只里名义差最大的一只，但申报后倒挂 ¥2,616。香港的真实价值是黑色鱼子酱这类热门组合的现货概率，以及海港城的商场返券能补回几个点。</td>
+</tr>
+<tr>
+  <td>Dior Book Tote 大号<br>蓝色 Oblique 款</td>
+  <td class="num">HK$28,500 → ¥24,254</td>
+  <td class="num">¥28,500（同图案大号，部分图案 ¥30,000）</td>
+  <td class="num good">-¥4,246（-14.9%）</td>
+  <td class="num bad">¥29,105</td>
+  <td><span class="badge b2">看现货</span><br>刺绣图案两地不同步上架，香港限定图案的现货才是买点；数字本身申报后和内地打平。</td>
+</tr>
+<tr>
+  <td>LV Neverfull MM<br>Monogram 帆布</td>
+  <td class="num">HK$17,100 → ¥14,552</td>
+  <td class="num">约 ¥15,100（2026 年多家专柜价报道口径）</td>
+  <td class="num mid">-¥548（-3.6%）</td>
+  <td class="num bad">¥17,462</td>
+  <td><span class="badge b1">不必专程</span><br>价差只剩汇率零头。顺路遇到想要的配色/刻字服务可以买，别把它列成行程目标。</td>
+</tr>
+<tr>
+  <td>Gucci Marmont 小号<br>（平行渠道参考）</td>
+  <td class="num">LBuy 现金价 HK$12,368 → ¥10,525<br>（标价 HK$16,500）</td>
+  <td class="num">内地公价未逐项核到</td>
+  <td class="num">—</td>
+  <td class="num">¥12,630</td>
+  <td><span class="badge b3">渠道价另说</span><br>Gucci/Loewe 这类品牌香港平行渠道（LBuy、米兰站等）常有 75 折上下现金价，和专柜是两套逻辑，接受平行渠道才成立，验货标准同徕卡街店。</td>
+</tr>
+</table></div>
+<div class="card"><b>香港买包真正成立的三种场景：</b>
+<ul>
+<li><b>二手/中古深度</b>：Brand Off、Zakoya、米兰站、Hedy 在尖沙咀/铜锣湾都有实体店，Chanel/LV/Hermès 流通量是内地比不了的，未使用品（S 级）常比专柜低 15–30%，当场验货带走</li>
+<li><b>奥莱</b>：葵涌佛罗伦萨小镇的 Prada 是全港最大的品牌奥莱（周末 10:30–19:30），东涌东荟城有 Coach/Ferragamo 等，适合返程前淘宝式翻货</li>
+<li><b>商场返券叠加</b>：海港城推广期（至 2027-01-03）大额签账有电子券阶梯，连卡佛 × Mastercard 周五至周日档（你们正好覆盖）满 HK$8,000 送 HK$400——对公价包来说，这是唯一还能再挤出的 3–5%</li>
+</ul></div>
+
+<h2>七、户外装备 <span class="en">OUTDOOR — 你们的主场，旺角就是装备城</span></h2>
+<p>户外是这趟最对口的品类：香港徒步文化浓，旺角一带聚集了全亚洲密度最高的户外店群，而且 11 月正值冬促。价格逻辑分两类：<b>始祖鸟这类内地定价显著偏高的品牌有真实价差；鞋和中小件看折扣店的当期活动，不看标价。</b></p>
+<div class="tblwrap"><table>
+<tr><th>产品/渠道</th><th>香港价</th><th>折 ¥</th><th>内地价</th><th>判断</th></tr>
+<tr>
+  <td>Arc'teryx Beta AR Jacket</td>
+  <td class="num">街店价目 HK$5,680</td>
+  <td class="num">¥4,834</td>
+  <td class="num">官方 ¥6,400（京东同口径）</td>
+  <td><span class="badge b4">值得</span><br>省 <span class="good">¥1,566（-24.5%）</span>，户外单品里最实的一笔。街店价目来自本地经销商挂牌，认准吊牌/防伪、试穿合身再买。</td>
+</tr>
+<tr>
+  <td>Arc'teryx Beta Jacket / Beta SL</td>
+  <td class="num">街店价目 HK$3,580 / HK$4,280</td>
+  <td class="num">¥3,047 / ¥3,642</td>
+  <td class="num">Beta Jacket 官方约 ¥4,500，京东促销可到 ¥2,880–3,300</td>
+  <td><span class="badge b3">看尺码</span><br>对比官方价省 32%，对比内地大促价只剩零头——它的价值是<b>热门色全码现货能试穿</b>，硬壳这东西试穿比省钱重要。</td>
+</tr>
+<tr>
+  <td>GO WILD（连锁，至 11-30）</td>
+  <td class="num">指定产品低至 4 折；买 3 件额外 9 折、买 8 件额外 8 折；另有满 ¥1,000 级别减免档</td>
+  <td class="num">—</td>
+  <td class="num">—</td>
+  <td><span class="badge b4">值得逛</span><br>活动期正好覆盖 11-21/22。多品牌集合店（Snow Peak、Gramicci 等），适合一次补齐中小件：袜子、头灯、收纳、旅行配件。</td>
+</tr>
+<tr>
+  <td>Protrek（会员冬促）</td>
+  <td class="num">指定外套/背囊买 2 件 85 折、会员 75 折；精选登山鞋 7 折；满额送礼（核验于 11-04 的活动汇总）</td>
+  <td class="num">—</td>
+  <td class="num">—</td>
+  <td><span class="badge b4">值得逛</span><br>专业户外老店，Scarpa 等鞋款齐。登山鞋必须试穿——这正是线下买鞋的意义。出发前注册会员。</td>
+</tr>
+<tr>
+  <td>Montbell（香港经销网）</td>
+  <td class="num">Wickron T 恤约 HK$225–250；经销点：The Overlander（旺角荷李活商业中心 12 楼）、永高行（旺角家乐坊 18 楼）等</td>
+  <td class="num">¥191 起</td>
+  <td class="num">内地无品牌官方渠道，以代购/跨境为主，溢价且码不全</td>
+  <td><span class="badge b3">补货向</span><br>价格接近日本定价折算，比代购靠谱。羽绒/雨衣这类轻量装备是 Montbell 的强项，现场试码。</td>
+</tr>
+<tr>
+  <td>旺角户外集群</td>
+  <td class="num">Backpacker/家樂坊楼上店群、西洋菜南街一带、奢途（旺角弥敦道 + 尖沙咀两店，探店帖报全场折扣、始祖鸟/猛犸象/攀山鼠库存深）</td>
+  <td class="num">—</td>
+  <td class="num">—</td>
+  <td><span class="badge b3">顺路扫</span><br>和 Day 2 的星际城市相机场在同一片区，一次走完。奢途的折扣是晒单口径，到店以价签为准。</td>
+</tr>
+</table></div>
+<div class="ok"><b>和徒步计划的衔接：</b>这趟是去走龙脊/狮子山的，不是去囤装备的。建议顺序反过来——Day 1 先走山，缺什么（防晒、药油、袜子、头灯）当天晚上在尖沙咀/铜锣湾补；Day 2 旺角再系统逛户外店。始祖鸟硬壳如果试穿合身且价目对得上，是这趟唯一值得“专程”的户外大件。</div>
+
+<h2>八、两天动线 <span class="en">徒步为主线，购物按集群收口</span></h2>
+<p class="small">前提：航班时间与酒店还没定（酒店在另一个对话里继续筛，已排除荃湾/黄竹坑，要求市中心 + 设施新），所以动线按<b>地铁枢纽 + 商圈集群</b>设计，住尖沙咀/铜锣湾/旺角任何一处都能套用。酒店定位后把 Day 1 晚场和 Day 2 出发点对调即可，不用重排。</p>
+
+<h3>Day 1 · 周六 11-21：龙脊 → 铜锣湾 → 中环冬日巡礼 → 尖沙咀</h3>
+<div class="timeline">
+  <div class="tl-item"><span class="t">08:00</span> <span class="place">龙脊徒步</span>——港铁筲箕湾站 A3 乘 9 号巴士至土地湾起步，土地湾 → 打烂埕顶山 → 大浪湾/石澳，约 8.5km、3–3.5 小时，难度中等、海景段无遮阴，带够水。石澳午饭。</div>
+  <div class="tl-item"><span class="t">14:00</span> <span class="place">铜锣湾集群</span>——先去白沙道<b>徕卡旗舰店</b>（关门较早，先办正事：Q3/M11-P 现货与保修问清）；再进 <b>SOGO 崇光</b>（感谢祭倒数第二天，今天营业到 22:30，不用赶早场）：美妆层看品牌套装，顺带在楼内/轩尼诗道<b>万宁、莎莎</b>把黄道益、防晒、La Mer 比价一次办完；轩尼诗道一带丰泽/百老汇核 A7R6、100-400 现货与当日价。</div>
+  <div class="tl-item"><span class="t">17:30</span> <span class="place">中环</span>——缤纷冬日巡礼今天开幕：皇后像广场圣诞小镇 + 20 米圣诞树，海滨散步到尖沙咀看对岸灯饰。</div>
+  <div class="tl-item"><span class="t">19:00</span> <span class="place">尖沙咀集群</span>——海港城：东方表行等表行<b>劳力士只登记意向</b>、帝舵/欧米茄/GS 试戴定型号、连卡佛 × Mastercard 周末档（单笔满 HK$4,000 送 HK$200 礼品卡，今天是档期周末）；<b>天祥 iSQUARE 508</b> 一次问齐 Leica Q/M 与 Sony 街价，能留货的当场下订。晚饭尖沙咀/佐敦解决。</div>
+  <div class="tl-item"><span class="t">21:30</span> <span class="place">可选晚场</span>——还有体力就回 SOGO 扫尾（22:30 关门），否则直接回酒店，明天旺角场更重要。</div>
+</div>
+
+<h3>Day 2 · 周日 11-22：三选一上午 + 旺角主战场 + 收尾</h3>
+<div class="timeline">
+  <div class="tl-item"><span class="t">上午 A</span> <span class="place">狮子山（还想走山）</span>——乐富/黄大仙上、沙田坳下，约 3 小时，下山就是九龙市区，直接接旺角场。</div>
+  <div class="tl-item"><span class="t">上午 B</span> <span class="place">丰泽荃湾开仓（抽中签才成立）</span>——11:30 开门，荃湾众安街周氏商业中心 3 楼，陈列品低至 1.8 折、iPhone 17 Pro Max 低至 75 折；逛完乘荃湾线直达旺角。</div>
+  <div class="tl-item"><span class="t">上午 C</span> <span class="place">睡到自然醒</span>——早午餐后直接旺角，徒步额度留给下次。</div>
+  <div class="tl-item"><span class="t">13:00</span> <span class="place">旺角集群（本日主战场）</span>——星际城市：<b>M&amp;K Kamera（3 楼 339，周日 12:00 开门）</b>看 M11-P/Q3 二手与开盒品，逐项验机；DCFever 等相机店复核 Sony 街价（和天祥报价对冲砍价）。同片区户外线：<b>GO WILD、Protrek</b> 看冬促折扣、<b>The Overlander/永高行</b>（荷李活商业中心/家乐坊）看 Montbell、奢途看始祖鸟库存与价目——四家都在步行 10 分钟内，和相机店穿插着逛；龙丰/莎莎在旺角也有大店，药妆美妆缺货在这里补齐。</div>
+  <div class="tl-item"><span class="t">16:00</span> <span class="place">尖沙咀补漏</span>——海港城/K11 MUSEA 查漏：昨天没定的表款试戴第二轮、连卡佛周末档最后一天。</div>
+  <div class="tl-item"><span class="t">返程前</span> <span class="place">东涌东荟城（去机场才走这条）</span>——百年灵奥莱 + 始祖鸟翻一圈，商场到机场约 10 分钟车程。若不去机场：SOGO 感谢祭今天收官，16:00 前回铜锣湾做最后收尾（启德店今天到 21:30）。</div>
+</div>
+<div class="card"><b>动线替换规则：</b>
+<ul>
+<li>下雨/大雾 → 取消徒步，两天都改“商场开门场次”模式：上午 10:30 商场开门直接进场，下午茶歇，晚上灯饰照常</li>
+<li>抽中开仓签 → Day 2 上午锁定荃湾（B 方案），狮子山取消，不改下午</li>
+<li>Day 1 在天祥/Rangefinder 已定下大件 → Day 2 旺角只验机提货，不再比价耗时间</li>
+<li>酒店最后定在市中心（尖沙咀/铜锣湾一带）→ 本动线不用改；若定港岛，Day 2 上午把狮子山换成宝马山/金督驰马径短线</li>
+</ul></div>
+
+<h2>九、出发前清单 <span class="en">按截止时间排</span></h2>
+<ul class="check">
+  <li><span class="due">11-12 23:59 截止</span>丰泽荃湾开仓抽签登记（易赏钱 Moneyback App），11-16 App 公布结果——唯一过时不候的动作</li>
+  <li><span class="due2">11-17</span>丰泽 11.11 档期结束，此后价格以黑五周新档为准，现在看到的丰泽价（A7R6 HK$32,350 等）到店可能变动</li>
+  <li><span class="due2">11-20 前</span>给天祥、Rangefinder、M&amp;K 发消息问现货并留货：A7R6（HK$28,590 是订货价）、Q3、M11-P 都不是默认有现货的型号</li>
+  <li><span class="due2">11-20 前</span>领 Sony HK$200 My Sony Dollar（官网预登记，11-02–30 可用）；确认招行银联香港返现已报名；注册连卡佛会员并备好一张可感应支付的 Mastercard</li>
+  <li><span class="due2">11-20</span>黑五周价格生效日：复核一遍丰泽/Sony 官网的 R6 与 100-400 价格，截图保存目标价（到店议价与比价的凭证）</li>
+  <li><span class="due2">出发前 3 天</span>看天决定徒步强度：龙脊无遮阴、雨后石澳段滑；备选室内日直接套用替换规则</li>
+  <li><span class="due2">出发前</span>注册 Protrek 会员（冬促会员 75 折档要用）；始祖鸟先在内地专柜试好尺码，香港只核价目和现货</li>
+  <li><span class="due2">出发前</span>美妆/药妆列一张小清单（品牌+规格+目标价），莎莎/龙丰/卓悦同款比三家再下手；万宁结账前确认招行银联满额返现是否已报名</li>
+  <li><span class="due2">入境时</span>保留全部发票/刷卡记录；免税额 ¥12,000/人（港澳口径，不可分割单件不能和同行人拼额度）；相机 13%、镜头 20%、包袋 20%、高档表与高档化妆品 50% 的申报成本已算进本文每张表；美妆药妆总量小，控制在免税额内即可</li>
+</ul>
+
+<h2>十、证据与缺口 <span class="en">EVIDENCE &amp; GAPS</span></h2>
+<div class="card">
+<p><b>核验方式：</b>全部价格于 2026-11-06 逐项查自品牌官网、香港零售商（丰泽/周大福/天祥/Rangefinder/M&amp;K/万成）商品页与内地官方发布/电商页；汇率 1 HKD = ¥0.851126（XE 中间价，11-06）。主要来源：</p>
+<ul class="src">
+<li>Sony 香港：<a href="https://www.sony.com.hk/en/electronics/interchangeable-lens-cameras/ilce-7rm6/buy">A7R VI 购买页（My Sony HK$31,050）</a>、<a href="https://www.sony.com.hk/en/electronics/camera-lenses/sel100400mc/buy/sel100400mcqsyx">FE 100-400 F4.5 GM 购买页</a>、<a href="https://www.tincheungonline.com.hk/products/sony-ilce-7rm6">天祥 A7R VI（HK$28,590）</a>、<a href="https://www.tincheungonline.com.hk/products/sony-ilce-7m5">天祥 A7 V（HK$16,990）</a></li>
+<li>Sony 中国：<a href="https://www.sony.com.cn/content/sonyportal/zh-cn/cms/newscenter/product/2026/20260513-2.html">2026-05-13 发布稿（A7R VI ¥31,799 / 100-400 F4.5 ¥29,999）</a></li>
+<li>徕卡：<a href="https://www.tincheungonline.com.hk/products/leica-m11-p">天祥 M11-P</a>、<a href="https://www.rangefinder.com.hk/store/">Rangefinder 网店</a>、<a href="https://mkkcamera.com/collections/digital-cameras">M&amp;K Kamera</a></li>
+<li>手表：<a href="https://www.rolex.com/zh-hant-hk/watches/submariner/m126610ln-0001">劳力士香港 126610LN（HK$91,700）</a>、<a href="https://www.rolex.com/zh-hans-cn/watches/submariner/m126610ln-0001">劳力士中国（¥91,200）</a>、<a href="https://www.chowtaifook.com/zh-hk/eshop/tudor/tudor-collection/black-bay-58">周大福帝舵碧湾 58</a>、<a href="https://www.grand-seiko.com/hk-zh/collections/sbga211g">Grand Seiko 香港 SBGA211（HK$49,800）</a></li>
+<li>海关规则：<a href="https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_4adf716bf28542fdbffe5510b30d8ed9.html">海关总署 2024 年第 176 号公告（港澳入境免税额 ¥12,000）</a>、<a href="http://www.cjtax.cn/a/202412/1x0k4l2elo53v.shtml">进境物品分类表（机身 13% / 镜头 20% / 高档手表 50%）</a>、<a href="http://chinacustoms.gmcmonline.com/202502/c/20782.shtml">中国海关解读（高档化妆品 ≥¥10/毫升·克走 50% 档、普通 20%）</a></li>
+<li>美妆/药妆：<a href="https://www.sasa.com.hk/SalePage/Index/328800?lang=zh-HK">莎莎 SK-II 神仙水（HK$888）</a>、<a href="https://eshop.lungfung.hk/product/bsn182297/">龙丰 La Mer 精华面霜 60ml（HK$1,480）</a>、<a href="https://www.sogo.com.hk/tc/product/90869969-26/essential-duo-set">SOGO SK-II 双精华组合（HK$3,400）</a>、<a href="https://www.mannings.com.hk/zh-hant/wong-to-yick-wood-lock-medicated-balm-50ml/p/426775?text=%E8%B7%8C%E6%89%93">万宁黄道益活络油（HK$79.90）</a>、<a href="https://www.watsons.com.hk/zh-cn/%E4%BF%9D%E5%81%A5/%E6%B4%BB%E7%BB%9C%E6%B2%B9/c/050206">屈臣氏药油价目</a></li>
+<li>包包：<a href="https://hk.louisvuitton.com/zht-hk/products/neverfull-mm-monogram-nvprod5350101v/M46975">LV 香港 Neverfull MM（HK$17,100）</a>、<a href="https://www.dior.com/zh_hk/fashion/womens-fashion/bags/dior-book-tote">Dior 香港 Book Tote（大号 HK$28,500）</a>、<a href="https://www.dior.cn/zh_cn/fashion/womens-fashion/bags/dior-book-tote">Dior 中国 Book Tote</a>、<a href="https://www.bragmybag.com/chanel-price-increase-2026/">Chanel 2026 全球价目（CF 中号 香港 HK$90,400 / 中国 ¥89,700）</a></li>
+<li>户外：<a href="https://www.brandon.promo/zh/brand/go-wild/">GO WILD 当前优惠（至 11-30）</a>、<a href="https://www.brandon.promo/zh/brand/protrek/">Protrek 会员冬促</a>、<a href="https://www.montbell.com.hk/dealer/">Montbell 香港经销点名单</a>、<a href="https://www.citygateoutlets.com.hk/zh-cn/brands/go-wild/">东荟城 GO WILD 店</a></li>
+</ul>
+<p><b>已知缺口（不装完整）：</b></p>
+<ul>
+<li>旧款 SEL100400GM 的内地自营到手价未核到（京东页未给价），该行只比香港侧价格</li>
+<li>A7R6 内地“约 ¥25,700”商家行情来自单一商家报道，未逐店核实；A7M5 内地门店约 ¥13,500 为晒单/报道口径，非官方价</li>
+<li>Rangefinder / M&amp;K 的徕卡街价未逐台确认保修性质（行货/平行/店保），表中判断以“购买前确认保修主体”为前提</li>
+<li>手表折扣（欧米茄内地 9–9.5 折等）为市场通行口径，非单店承诺；劳力士两地库存为配额常态判断，非单店确认</li>
+<li>所有香港街价均为 11-06 挂牌价，库存与价格在 11-20 黑五周生效后可能变动，出发前按清单复核</li>
+<li>LV Neverfull MM 内地价（约 ¥15,100）来自 2026 年多家价格报道而非官网标价（LV 中国官网不标价），误差可能有几百元，不影响“价差只剩零头”的结论</li>
+<li>Gucci/Loewe 只取到香港平行渠道与二手挂价，未逐项核专柜价，故只作渠道参考、不下价差结论；Salomon XT-6、Hoka 的香港逐项价格未核到，户外部分未列这两家单品价</li>
+<li>始祖鸟香港街店价目来自本地经销商挂牌汇总（Beta $3,580 / SL $4,280 / AR $5,680），非品牌官网价；Protrek 冬促细节来自优惠汇总站 11-04 的记录，到店以当日活动为准</li>
+<li>兰蔻小黑瓶等“渠道价差速查”为比价站汇总口径，非逐店核价；SK-II/La Mer 的内地大促价为活动期口径，非常态价</li>
+</ul>
+</div>
+
+<footer>
+香港 2026-11-21–22 购物与徒步指南 · 数据核验 2026-11-06 · 价格为港币挂牌价按 0.851 折算，实际支付按发卡行汇率 · 本页为静态 HTML，无脚本，手机端可直接打开。
+</footer>
+
+</div>
+</body>
+</html>
